@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="958,678" caption="0,0,0,100" mininfo="96,65" showshadow="true" shadowimage="shadow.png" shadowcorner="23,13,23,33" roundcorner="3,3">
+<Default name="VScrollBar" value="width=&quot;6&quot; thumbnormalimage=&quot;file='scrollbar-normal.png' source='0,0,6,10' corner='0,3,0,3' &quot; thumbhotimage=&quot;file='scrollbar-hover.png' source='0,0,6,10' corner='0,3,0,3' &quot; thumbpushedimage=&quot;file='scrollbar-push.png' source='0,0,6,10' corner='0,3,0,3' &quot;"/>
+  <VerticalLayout vscrollbar="true">
+	<HorizontalLayout height="50" bkcolor="#FFFF0000">		
+		<Button name="btnAddListItem" text="添加" textcolor="#FFFFFFFF" padding="30,8,0,0" width="123" height="38" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png" />
+		<Button name="btnclose" text="关闭" textcolor="#FFFFFFFF" padding="80,8,0,0" width="123" height="38" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png" />		
+	</HorizontalLayout >
+	<VerticalLayout >
+		<ListEx name="listview" header="hidden" bkcolor="#FFF5FFFA" vscrollbar="true">
+				
+		</ListEx>	
+	</VerticalLayout>
+  </VerticalLayout>
+</Window>
